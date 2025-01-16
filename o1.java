@@ -67,51 +67,51 @@
   Exercise : 
 |   ------------------------             ------------------------
 |	     PROGGRAMER CODE	        |        COMPILER CODE
-|	1. class Test{					|   1. class Test{
-|								    |        Test(){
-|		}							|           super();
+|	1. class Test{			|   1. class Test{
+|					|        Test(){
+|		}			|           super();
 |	                                |            }
-|									|        }
-|									|
-|  ------------------------			|  ------------------------
-|									|
-|	2. public class Test{			|  2. public class Test{
-|								    |        public Test() {
-|	}								|          super();
-|									|           }
-|									|         }
-   ------------------------			|    ------------------------
-|									|
-|	3. class Test{					|    3. class Test{
-|			void Test(){			|          void Test() {
-|			}						|           }
-|	}							    |             Test(){
-|									|                super();
-|									|                 }
-|									|               }
-	------------------------		|   ------------------------           
-|	4. class Test{					|   4. class Test{
-|		Test (int i){				|           Test(int i) {
-|		}						    |                super();
-|	}							    |              }
-|									|            }
+|					|        }
+|					|
+|  ------------------------		|  ------------------------
+|					|
+|	2. public class Test{		|  2. public class Test{
+|					|        public Test() {
+|	}				|          super();
+|					|           }
+|					|         }
+   ------------------------		|    ------------------------
+|					|
+|	3. class Test{			|    3. class Test{
+|			void Test(){	|          void Test() {
+|			}		|           }
+|	}				|             Test(){
+|					|                super();
+|					|                 }
+|					|               }
+	------------------------	|   ------------------------           
+|	4. class Test{			|   4. class Test{
+|		Test (int i){		|           Test(int i) {
+|		}			|                super();
+|	}				|              }
+|					|            }
     ------------------------		|   ------------------------
-|	5. class Test{					|  5. As it is
-|		 Test(){					|
-|			super();				|
-|		 }							|
-|	}							    |
+|	5. class Test{			|  5. As it is
+|		 Test(){		|
+|			super();	|
+|		 }			|
+|	}				|
     ------------------------		|   ------------------------
-|	6.	class Test{					|      class Test{
-|			Test(int i){			|          Test(int i){
-|			 this();				|               this();
-|			}				        |               }
-|			Test(){				    |           Test(){
-|								    |               super();
-|			}				        |               }
-|	}					            |             }
-|								    |
-	 ------------------------	    |      ------------------------
+|	6.	class Test{		|      class Test{
+|			Test(int i){	|          Test(int i){
+|			 this();	|               this();
+|			}		|               }
+|			Test(){		|           Test(){
+|					|               super();
+|			}		|               }
+|	}				|             }
+|					|
+	 ------------------------	|      ------------------------
 									
 								
 					
